@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:rgba(0, 0, 0, .8)
+}
+.app{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    background: #000;
+    width: 300px;
+    padding:150px;
+    transform: translate(-50%,-50%);
+    border-radius: 14px;
+    border:2px solid #fff;
+} 
+.app h1{
+    color: #fff;
+    position: absolute;
+    top: 6%;
+    font-size:45px;
+    left: 13%;
+    color: rgb(235, 52, 82);
+}
+.app input[type="text"],.app input[type="password"]{
+    padding: 6px;
+    border-radius: 14px;
+    margin: 20px auto;
+    display: block;
+    background: none;
+    border: 0;
+    text-align: center;
+    border: 2px solid dodgerblue;
+    outline: none;
+    color: aliceblue;
+    padding: 14px 10px;
+    width: 240px;
+    font-family: sans-serif;
+    font-size: 16px;
+    caret-color: gold;
+}
+.app input[type="submit"]{
+    padding: 6px;
+    border-radius: 14px;
+    margin: 20px auto;
+    display: block;
+    background: none;
+    border: 0;
+    text-align: center;
+    border: 2px solid dodgerblue;
+    outline: none;
+    color: aliceblue;
+    padding: 14px 10px;
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 16px;
+    transition: 0.25s;
+    cursor: pointer;
+
+
+}
+.app input[type="text"]:focus,.app input[type="password"]:focus{
+    width: 280px;
+    border-color:#2ecc71;
+}
+.app input[type="submit"]:hover{
+    border-color:#2ecc71;
+    background: #2ecc71;
+}
+.map{
+    width: 50%;
+    height:80vh;
+}

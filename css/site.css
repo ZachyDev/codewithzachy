@@ -1,0 +1,30 @@
+.col-twelve button{
+    width: 270px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-right: 70px;
+}
+
+.col-twelve button:hover{
+    background:rgb(171, 5, 63);
+    width: 300px;
+    color:#fff;
+}
+.col-twelve{
+    transition: all 400ms ease-in-out;
+
+}
+/* .timeline-content{
+    line-height: 5px;
+} */
+@media (max-width:760px) {
+    .col-twelve button{
+        margin-left: 12.5%;
+    }
+    .col-six p{
+        margin: 5px 40px;
+    }
+    .info-list li{
+        margin: 3px 70px;
+    }
+}
